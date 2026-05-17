@@ -107,7 +107,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.BackgroundImage = global::Restaurante_SoftGourmet.Properties.Resources.Admin;
+            this.pictureBox2.BackgroundImage = null;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(593, 0);
             this.pictureBox2.Name = "pictureBox2";
@@ -118,7 +118,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::Restaurante_SoftGourmet.Properties.Resources.Logo;
+            this.pictureBox1.BackgroundImage = null;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(18, 0);
             this.pictureBox1.Name = "pictureBox1";
@@ -228,7 +228,7 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.BackgroundImage = global::Restaurante_SoftGourmet.Properties.Resources.boton4;
+            this.btnSalir.BackgroundImage = null;
             this.btnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnSalir.Location = new System.Drawing.Point(599, 27);
             this.btnSalir.Name = "btnSalir";
@@ -238,7 +238,7 @@
             // 
             // btnProduccion
             // 
-            this.btnProduccion.BackgroundImage = global::Restaurante_SoftGourmet.Properties.Resources.boton2;
+            this.btnProduccion.BackgroundImage = null;
             this.btnProduccion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnProduccion.Location = new System.Drawing.Point(237, 27);
             this.btnProduccion.Name = "btnProduccion";
@@ -249,7 +249,7 @@
             // 
             // btnFacturacion
             // 
-            this.btnFacturacion.BackgroundImage = global::Restaurante_SoftGourmet.Properties.Resources.boton3;
+            this.btnFacturacion.BackgroundImage = null;
             this.btnFacturacion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnFacturacion.Location = new System.Drawing.Point(418, 27);
             this.btnFacturacion.Name = "btnFacturacion";
@@ -260,7 +260,7 @@
             // 
             // btnAlmacen
             // 
-            this.btnAlmacen.BackgroundImage = global::Restaurante_SoftGourmet.Properties.Resources.boton1;
+            this.btnAlmacen.BackgroundImage = null;
             this.btnAlmacen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnAlmacen.Location = new System.Drawing.Point(53, 27);
             this.btnAlmacen.Name = "btnAlmacen";
