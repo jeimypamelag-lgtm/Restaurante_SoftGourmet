@@ -850,5 +850,10 @@ namespace Restaurante_SoftGourmet
                 MessageBox.Show("Error al realizar el pedido: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void lblFechaActual1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

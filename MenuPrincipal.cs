@@ -51,5 +51,10 @@ namespace Restaurante_SoftGourmet
 
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -86,6 +86,7 @@
             // 
             this.txtContraseña.Location = new System.Drawing.Point(451, 276);
             this.txtContraseña.Name = "txtContraseña";
+            this.txtContraseña.PasswordChar = '*';
             this.txtContraseña.Size = new System.Drawing.Size(228, 26);
             this.txtContraseña.TabIndex = 4;
             // 
@@ -130,6 +131,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "RegistroPersonal";
             this.Text = "RegistroPersonal";
+            this.Load += new System.EventHandler(this.RegistroPersonal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
