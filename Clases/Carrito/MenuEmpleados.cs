@@ -15,6 +15,7 @@ namespace Restaurante_SoftGourmet.Clases.Carrito
         public MenuEmpleados()
         {
             InitializeComponent();
+
         }
 
         private void btnAlmacen_Click(object sender, EventArgs e)
@@ -59,6 +60,14 @@ namespace Restaurante_SoftGourmet.Clases.Carrito
 
             // Lo asignamos al Label usando una interpolación para que se vean ambos
             lblFechaActual1.Text = $"{fecha}  |  {hora}";
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            //FrmMenu regresar
+            RegistroPersonal frmMenu = new RegistroPersonal();
+            frmMenu.Show();
+            this.Close();
         }
     }
 }

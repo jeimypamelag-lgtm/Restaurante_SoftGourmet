@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuEmpleados));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -41,7 +42,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.SectionDate1 = new System.Windows.Forms.Panel();
-            this.btnRegresar = new System.Windows.Forms.Button();
             this.lblFechaActual1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnSalir = new System.Windows.Forms.Button();
@@ -107,22 +107,24 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.BackgroundImage = null;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(593, 0);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(63, 60);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = null;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(18, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(63, 60);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
@@ -182,7 +184,6 @@
             // SectionDate1
             // 
             this.SectionDate1.BackColor = System.Drawing.Color.DarkRed;
-            this.SectionDate1.Controls.Add(this.btnRegresar);
             this.SectionDate1.Controls.Add(this.lblFechaActual1);
             this.SectionDate1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.SectionDate1.Location = new System.Drawing.Point(0, 50);
@@ -190,25 +191,11 @@
             this.SectionDate1.Size = new System.Drawing.Size(800, 50);
             this.SectionDate1.TabIndex = 4;
             // 
-            // btnRegresar
-            // 
-            this.btnRegresar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnRegresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegresar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegresar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(162)))), ((int)(((byte)(39)))));
-            this.btnRegresar.Location = new System.Drawing.Point(9, 11);
-            this.btnRegresar.Name = "btnRegresar";
-            this.btnRegresar.Size = new System.Drawing.Size(42, 30);
-            this.btnRegresar.TabIndex = 14;
-            this.btnRegresar.Text = "◀";
-            this.btnRegresar.UseVisualStyleBackColor = true;
-            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
-            // 
             // lblFechaActual1
             // 
             this.lblFechaActual1.AutoSize = true;
             this.lblFechaActual1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(162)))), ((int)(((byte)(39)))));
-            this.lblFechaActual1.Location = new System.Drawing.Point(57, 16);
+            this.lblFechaActual1.Location = new System.Drawing.Point(25, 18);
             this.lblFechaActual1.Name = "lblFechaActual1";
             this.lblFechaActual1.Size = new System.Drawing.Size(70, 13);
             this.lblFechaActual1.TabIndex = 4;
@@ -228,19 +215,20 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.BackgroundImage = null;
+            this.btnSalir.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSalir.BackgroundImage")));
             this.btnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnSalir.Location = new System.Drawing.Point(599, 27);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(160, 173);
             this.btnSalir.TabIndex = 3;
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // btnProduccion
             // 
-            this.btnProduccion.BackgroundImage = null;
+            this.btnProduccion.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnProduccion.BackgroundImage")));
             this.btnProduccion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnProduccion.Location = new System.Drawing.Point(237, 27);
+            this.btnProduccion.Location = new System.Drawing.Point(60, 27);
             this.btnProduccion.Name = "btnProduccion";
             this.btnProduccion.Size = new System.Drawing.Size(160, 173);
             this.btnProduccion.TabIndex = 2;
@@ -249,7 +237,7 @@
             // 
             // btnFacturacion
             // 
-            this.btnFacturacion.BackgroundImage = null;
+            this.btnFacturacion.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnFacturacion.BackgroundImage")));
             this.btnFacturacion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnFacturacion.Location = new System.Drawing.Point(418, 27);
             this.btnFacturacion.Name = "btnFacturacion";
@@ -260,9 +248,9 @@
             // 
             // btnAlmacen
             // 
-            this.btnAlmacen.BackgroundImage = null;
+            this.btnAlmacen.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAlmacen.BackgroundImage")));
             this.btnAlmacen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnAlmacen.Location = new System.Drawing.Point(53, 27);
+            this.btnAlmacen.Location = new System.Drawing.Point(237, 27);
             this.btnAlmacen.Name = "btnAlmacen";
             this.btnAlmacen.Size = new System.Drawing.Size(160, 173);
             this.btnAlmacen.TabIndex = 0;
@@ -312,7 +300,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel SectionDate1;
-        private System.Windows.Forms.Button btnRegresar;
         private System.Windows.Forms.Label lblFechaActual1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;

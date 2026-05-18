@@ -38,15 +38,19 @@
             this.nudCantidad2 = new System.Windows.Forms.NumericUpDown();
             this.btnAgregar2 = new System.Windows.Forms.Button();
             this.lblDescripción2 = new System.Windows.Forms.Label();
+            this.imgDisponibilidad2 = new System.Windows.Forms.PictureBox();
             this.lblPrecio2 = new System.Windows.Forms.Label();
             this.lblNombre2 = new System.Windows.Forms.Label();
+            this.imgProducto2 = new System.Windows.Forms.PictureBox();
             this.pnlSubSectionProduct1 = new System.Windows.Forms.Panel();
             this.lblCantidadTitle1 = new System.Windows.Forms.Label();
             this.nudCantidad1 = new System.Windows.Forms.NumericUpDown();
             this.btnAgregar1 = new System.Windows.Forms.Button();
             this.lblDescripción1 = new System.Windows.Forms.Label();
+            this.imgDisponibilidad1 = new System.Windows.Forms.PictureBox();
             this.lblPrecio1 = new System.Windows.Forms.Label();
             this.lblNombre1 = new System.Windows.Forms.Label();
+            this.imgProducto1 = new System.Windows.Forms.PictureBox();
             this.SectionDate1 = new System.Windows.Forms.Panel();
             this.btnRegresar = new System.Windows.Forms.Button();
             this.lblFechaActual1 = new System.Windows.Forms.Label();
@@ -54,10 +58,16 @@
             this.label4 = new System.Windows.Forms.Label();
             this.cboCategoria = new System.Windows.Forms.ComboBox();
             this.SectionInfo1 = new System.Windows.Forms.Panel();
+            this.imgAgotados1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.imgCasiAgotados1 = new System.Windows.Forms.PictureBox();
+            this.imgDisponible1 = new System.Windows.Forms.PictureBox();
             this.lblCapacidad1 = new System.Windows.Forms.Label();
             this.cboMesa = new System.Windows.Forms.ComboBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.SectionCart = new System.Windows.Forms.TabPage();
@@ -68,15 +78,19 @@
             this.nudCantidadCart2 = new System.Windows.Forms.NumericUpDown();
             this.btnEliminarCart2 = new System.Windows.Forms.Button();
             this.lblDescripciónCart2 = new System.Windows.Forms.Label();
+            this.imgDisponibilidadCart2 = new System.Windows.Forms.PictureBox();
             this.lblPrecioCart2 = new System.Windows.Forms.Label();
             this.lblNombreCart2 = new System.Windows.Forms.Label();
+            this.imgProductoCart2 = new System.Windows.Forms.PictureBox();
             this.pnlSubSectionProductCart1 = new System.Windows.Forms.Panel();
             this.lblCantidadCartTitle1 = new System.Windows.Forms.Label();
             this.nudCantidadCart1 = new System.Windows.Forms.NumericUpDown();
             this.btnEliminarCart1 = new System.Windows.Forms.Button();
             this.lblDescripciónCart1 = new System.Windows.Forms.Label();
+            this.imgDisponibilidadCart1 = new System.Windows.Forms.PictureBox();
             this.lblPrecioCart1 = new System.Windows.Forms.Label();
             this.lblNombreCart1 = new System.Windows.Forms.Label();
+            this.imgProductoCart1 = new System.Windows.Forms.PictureBox();
             this.SectionDate2 = new System.Windows.Forms.Panel();
             this.btnRealizarPedido = new System.Windows.Forms.Button();
             this.lblFechaActual2 = new System.Windows.Forms.Label();
@@ -88,22 +102,8 @@
             this.lblCapacidad2 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.imgDisponibilidad2 = new System.Windows.Forms.PictureBox();
-            this.imgProducto2 = new System.Windows.Forms.PictureBox();
-            this.imgDisponibilidad1 = new System.Windows.Forms.PictureBox();
-            this.imgProducto1 = new System.Windows.Forms.PictureBox();
-            this.imgAgotados1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.imgCasiAgotados1 = new System.Windows.Forms.PictureBox();
-            this.imgDisponible1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.imgDisponibilidadCart2 = new System.Windows.Forms.PictureBox();
-            this.imgProductoCart2 = new System.Windows.Forms.PictureBox();
-            this.imgDisponibilidadCart1 = new System.Windows.Forms.PictureBox();
-            this.imgProductoCart1 = new System.Windows.Forms.PictureBox();
             this.imgCasiAgotados2 = new System.Windows.Forms.PictureBox();
+            this.label20 = new System.Windows.Forms.Label();
             this.imgDisponible2 = new System.Windows.Forms.PictureBox();
             this.tlpAllContainer.SuspendLayout();
             this.TABControlador.SuspendLayout();
@@ -112,35 +112,35 @@
             this.SectionProducts1.SuspendLayout();
             this.pnlSubSectionProduct2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudCantidad2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgDisponibilidad2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgProducto2)).BeginInit();
             this.pnlSubSectionProduct1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudCantidad1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgDisponibilidad1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgProducto1)).BeginInit();
             this.SectionDate1.SuspendLayout();
             this.SectionInfo2.SuspendLayout();
             this.SectionInfo1.SuspendLayout();
-            this.SectionCart.SuspendLayout();
-            this.tlpProductContainer2.SuspendLayout();
-            this.SectionProductsCart1.SuspendLayout();
-            this.pnlSubSectionProductCart2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudCantidadCart2)).BeginInit();
-            this.pnlSubSectionProductCart1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudCantidadCart1)).BeginInit();
-            this.SectionDate2.SuspendLayout();
-            this.SectionInfo4.SuspendLayout();
-            this.SectionInfo3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imgDisponibilidad2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgProducto2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgDisponibilidad1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgProducto1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgAgotados1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgCasiAgotados1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgDisponible1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.SectionCart.SuspendLayout();
+            this.tlpProductContainer2.SuspendLayout();
+            this.SectionProductsCart1.SuspendLayout();
+            this.pnlSubSectionProductCart2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudCantidadCart2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgDisponibilidadCart2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgProductoCart2)).BeginInit();
+            this.pnlSubSectionProductCart1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudCantidadCart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgDisponibilidadCart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgProductoCart1)).BeginInit();
+            this.SectionDate2.SuspendLayout();
+            this.SectionInfo4.SuspendLayout();
+            this.SectionInfo3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgCasiAgotados2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgDisponible2)).BeginInit();
             this.SuspendLayout();
@@ -269,6 +269,14 @@
             this.lblDescripción2.TabIndex = 9;
             this.lblDescripción2.Text = "Descripción";
             // 
+            // imgDisponibilidad2
+            // 
+            this.imgDisponibilidad2.Location = new System.Drawing.Point(10, 170);
+            this.imgDisponibilidad2.Name = "imgDisponibilidad2";
+            this.imgDisponibilidad2.Size = new System.Drawing.Size(160, 20);
+            this.imgDisponibilidad2.TabIndex = 8;
+            this.imgDisponibilidad2.TabStop = false;
+            // 
             // lblPrecio2
             // 
             this.lblPrecio2.AutoSize = true;
@@ -288,6 +296,14 @@
             this.lblNombre2.Size = new System.Drawing.Size(68, 21);
             this.lblNombre2.TabIndex = 6;
             this.lblNombre2.Text = "Nombre";
+            // 
+            // imgProducto2
+            // 
+            this.imgProducto2.Location = new System.Drawing.Point(10, 10);
+            this.imgProducto2.Name = "imgProducto2";
+            this.imgProducto2.Size = new System.Drawing.Size(160, 160);
+            this.imgProducto2.TabIndex = 0;
+            this.imgProducto2.TabStop = false;
             // 
             // pnlSubSectionProduct1
             // 
@@ -346,6 +362,14 @@
             this.lblDescripción1.TabIndex = 9;
             this.lblDescripción1.Text = "Descripción";
             // 
+            // imgDisponibilidad1
+            // 
+            this.imgDisponibilidad1.Location = new System.Drawing.Point(10, 170);
+            this.imgDisponibilidad1.Name = "imgDisponibilidad1";
+            this.imgDisponibilidad1.Size = new System.Drawing.Size(160, 20);
+            this.imgDisponibilidad1.TabIndex = 8;
+            this.imgDisponibilidad1.TabStop = false;
+            // 
             // lblPrecio1
             // 
             this.lblPrecio1.AutoSize = true;
@@ -365,6 +389,14 @@
             this.lblNombre1.Size = new System.Drawing.Size(68, 21);
             this.lblNombre1.TabIndex = 6;
             this.lblNombre1.Text = "Nombre";
+            // 
+            // imgProducto1
+            // 
+            this.imgProducto1.Location = new System.Drawing.Point(10, 10);
+            this.imgProducto1.Name = "imgProducto1";
+            this.imgProducto1.Size = new System.Drawing.Size(160, 160);
+            this.imgProducto1.TabIndex = 0;
+            this.imgProducto1.TabStop = false;
             // 
             // SectionDate1
             // 
@@ -429,6 +461,7 @@
             // 
             this.cboCategoria.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cboCategoria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.cboCategoria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboCategoria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cboCategoria.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(162)))), ((int)(((byte)(39)))));
             this.cboCategoria.FormattingEnabled = true;
@@ -458,6 +491,50 @@
             this.SectionInfo1.Size = new System.Drawing.Size(780, 50);
             this.SectionInfo1.TabIndex = 0;
             // 
+            // imgAgotados1
+            // 
+            this.imgAgotados1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.imgAgotados1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.imgAgotados1.Location = new System.Drawing.Point(657, 15);
+            this.imgAgotados1.Name = "imgAgotados1";
+            this.imgAgotados1.Size = new System.Drawing.Size(20, 20);
+            this.imgAgotados1.TabIndex = 7;
+            this.imgAgotados1.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.pictureBox1.Location = new System.Drawing.Point(652, 10);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
+            // 
+            // imgCasiAgotados1
+            // 
+            this.imgCasiAgotados1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.imgCasiAgotados1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.imgCasiAgotados1.Location = new System.Drawing.Point(482, 15);
+            this.imgCasiAgotados1.Name = "imgCasiAgotados1";
+            this.imgCasiAgotados1.Size = new System.Drawing.Size(20, 20);
+            this.imgCasiAgotados1.TabIndex = 6;
+            this.imgCasiAgotados1.TabStop = false;
+            // 
+            // imgDisponible1
+            // 
+            this.imgDisponible1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.imgDisponible1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.imgDisponible1.Location = new System.Drawing.Point(327, 15);
+            this.imgDisponible1.Name = "imgDisponible1";
+            this.imgDisponible1.Size = new System.Drawing.Size(20, 20);
+            this.imgDisponible1.TabIndex = 5;
+            this.imgDisponible1.TabStop = false;
+            // 
             // lblCapacidad1
             // 
             this.lblCapacidad1.AutoSize = true;
@@ -471,6 +548,7 @@
             // cboMesa
             // 
             this.cboMesa.BackColor = System.Drawing.Color.DarkRed;
+            this.cboMesa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboMesa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cboMesa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(162)))), ((int)(((byte)(39)))));
             this.cboMesa.FormattingEnabled = true;
@@ -478,6 +556,17 @@
             this.cboMesa.Name = "cboMesa";
             this.cboMesa.Size = new System.Drawing.Size(108, 29);
             this.cboMesa.TabIndex = 4;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.pictureBox2.Location = new System.Drawing.Point(477, 10);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox2.TabIndex = 7;
+            this.pictureBox2.TabStop = false;
             // 
             // label5
             // 
@@ -502,6 +591,17 @@
             this.label3.Size = new System.Drawing.Size(76, 21);
             this.label3.TabIndex = 5;
             this.label3.Text = "Agotados";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.pictureBox3.Location = new System.Drawing.Point(322, 10);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox3.TabIndex = 6;
+            this.pictureBox3.TabStop = false;
             // 
             // label2
             // 
@@ -623,6 +723,14 @@
             this.lblDescripciónCart2.TabIndex = 9;
             this.lblDescripciónCart2.Text = "Descripción";
             // 
+            // imgDisponibilidadCart2
+            // 
+            this.imgDisponibilidadCart2.Location = new System.Drawing.Point(10, 170);
+            this.imgDisponibilidadCart2.Name = "imgDisponibilidadCart2";
+            this.imgDisponibilidadCart2.Size = new System.Drawing.Size(160, 20);
+            this.imgDisponibilidadCart2.TabIndex = 8;
+            this.imgDisponibilidadCart2.TabStop = false;
+            // 
             // lblPrecioCart2
             // 
             this.lblPrecioCart2.AutoSize = true;
@@ -641,6 +749,14 @@
             this.lblNombreCart2.Size = new System.Drawing.Size(68, 21);
             this.lblNombreCart2.TabIndex = 6;
             this.lblNombreCart2.Text = "Nombre";
+            // 
+            // imgProductoCart2
+            // 
+            this.imgProductoCart2.Location = new System.Drawing.Point(10, 10);
+            this.imgProductoCart2.Name = "imgProductoCart2";
+            this.imgProductoCart2.Size = new System.Drawing.Size(160, 160);
+            this.imgProductoCart2.TabIndex = 0;
+            this.imgProductoCart2.TabStop = false;
             // 
             // pnlSubSectionProductCart1
             // 
@@ -696,6 +812,14 @@
             this.lblDescripciónCart1.TabIndex = 9;
             this.lblDescripciónCart1.Text = "Descripción";
             // 
+            // imgDisponibilidadCart1
+            // 
+            this.imgDisponibilidadCart1.Location = new System.Drawing.Point(10, 170);
+            this.imgDisponibilidadCart1.Name = "imgDisponibilidadCart1";
+            this.imgDisponibilidadCart1.Size = new System.Drawing.Size(160, 20);
+            this.imgDisponibilidadCart1.TabIndex = 8;
+            this.imgDisponibilidadCart1.TabStop = false;
+            // 
             // lblPrecioCart1
             // 
             this.lblPrecioCart1.AutoSize = true;
@@ -714,6 +838,14 @@
             this.lblNombreCart1.Size = new System.Drawing.Size(68, 21);
             this.lblNombreCart1.TabIndex = 6;
             this.lblNombreCart1.Text = "Nombre";
+            // 
+            // imgProductoCart1
+            // 
+            this.imgProductoCart1.Location = new System.Drawing.Point(10, 10);
+            this.imgProductoCart1.Name = "imgProductoCart1";
+            this.imgProductoCart1.Size = new System.Drawing.Size(160, 160);
+            this.imgProductoCart1.TabIndex = 0;
+            this.imgProductoCart1.TabStop = false;
             // 
             // SectionDate2
             // 
@@ -776,6 +908,7 @@
             // 
             this.cboOrdenarCategoria.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cboOrdenarCategoria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.cboOrdenarCategoria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboOrdenarCategoria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cboOrdenarCategoria.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(162)))), ((int)(((byte)(39)))));
             this.cboOrdenarCategoria.FormattingEnabled = true;
@@ -842,6 +975,17 @@
             this.label19.TabIndex = 3;
             this.label19.Text = "Casi Agotados";
             // 
+            // imgCasiAgotados2
+            // 
+            this.imgCasiAgotados2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.imgCasiAgotados2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.imgCasiAgotados2.Location = new System.Drawing.Point(616, 10);
+            this.imgCasiAgotados2.Name = "imgCasiAgotados2";
+            this.imgCasiAgotados2.Size = new System.Drawing.Size(30, 30);
+            this.imgCasiAgotados2.TabIndex = 2;
+            this.imgCasiAgotados2.TabStop = false;
+            // 
             // label20
             // 
             this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -853,147 +997,6 @@
             this.label20.Size = new System.Drawing.Size(84, 21);
             this.label20.TabIndex = 1;
             this.label20.Text = "Disponible";
-            // 
-            // imgDisponibilidad2
-            // 
-            this.imgDisponibilidad2.Location = new System.Drawing.Point(10, 170);
-            this.imgDisponibilidad2.Name = "imgDisponibilidad2";
-            this.imgDisponibilidad2.Size = new System.Drawing.Size(160, 20);
-            this.imgDisponibilidad2.TabIndex = 8;
-            this.imgDisponibilidad2.TabStop = false;
-            // 
-            // imgProducto2
-            // 
-            this.imgProducto2.Location = new System.Drawing.Point(10, 10);
-            this.imgProducto2.Name = "imgProducto2";
-            this.imgProducto2.Size = new System.Drawing.Size(160, 160);
-            this.imgProducto2.TabIndex = 0;
-            this.imgProducto2.TabStop = false;
-            // 
-            // imgDisponibilidad1
-            // 
-            this.imgDisponibilidad1.Location = new System.Drawing.Point(10, 170);
-            this.imgDisponibilidad1.Name = "imgDisponibilidad1";
-            this.imgDisponibilidad1.Size = new System.Drawing.Size(160, 20);
-            this.imgDisponibilidad1.TabIndex = 8;
-            this.imgDisponibilidad1.TabStop = false;
-            // 
-            // imgProducto1
-            // 
-            this.imgProducto1.Location = new System.Drawing.Point(10, 10);
-            this.imgProducto1.Name = "imgProducto1";
-            this.imgProducto1.Size = new System.Drawing.Size(160, 160);
-            this.imgProducto1.TabIndex = 0;
-            this.imgProducto1.TabStop = false;
-            // 
-            // imgAgotados1
-            // 
-            this.imgAgotados1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.imgAgotados1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.imgAgotados1.Location = new System.Drawing.Point(657, 15);
-            this.imgAgotados1.Name = "imgAgotados1";
-            this.imgAgotados1.Size = new System.Drawing.Size(20, 20);
-            this.imgAgotados1.TabIndex = 7;
-            this.imgAgotados1.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.pictureBox1.Location = new System.Drawing.Point(652, 10);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
-            // 
-            // imgCasiAgotados1
-            // 
-            this.imgCasiAgotados1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.imgCasiAgotados1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.imgCasiAgotados1.Location = new System.Drawing.Point(482, 15);
-            this.imgCasiAgotados1.Name = "imgCasiAgotados1";
-            this.imgCasiAgotados1.Size = new System.Drawing.Size(20, 20);
-            this.imgCasiAgotados1.TabIndex = 6;
-            this.imgCasiAgotados1.TabStop = false;
-            // 
-            // imgDisponible1
-            // 
-            this.imgDisponible1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.imgDisponible1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.imgDisponible1.Location = new System.Drawing.Point(327, 15);
-            this.imgDisponible1.Name = "imgDisponible1";
-            this.imgDisponible1.Size = new System.Drawing.Size(20, 20);
-            this.imgDisponible1.TabIndex = 5;
-            this.imgDisponible1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.pictureBox2.Location = new System.Drawing.Point(477, 10);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox2.TabIndex = 7;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.pictureBox3.Location = new System.Drawing.Point(322, 10);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox3.TabIndex = 6;
-            this.pictureBox3.TabStop = false;
-            // 
-            // imgDisponibilidadCart2
-            // 
-            this.imgDisponibilidadCart2.Location = new System.Drawing.Point(10, 170);
-            this.imgDisponibilidadCart2.Name = "imgDisponibilidadCart2";
-            this.imgDisponibilidadCart2.Size = new System.Drawing.Size(160, 20);
-            this.imgDisponibilidadCart2.TabIndex = 8;
-            this.imgDisponibilidadCart2.TabStop = false;
-            // 
-            // imgProductoCart2
-            // 
-            this.imgProductoCart2.Location = new System.Drawing.Point(10, 10);
-            this.imgProductoCart2.Name = "imgProductoCart2";
-            this.imgProductoCart2.Size = new System.Drawing.Size(160, 160);
-            this.imgProductoCart2.TabIndex = 0;
-            this.imgProductoCart2.TabStop = false;
-            // 
-            // imgDisponibilidadCart1
-            // 
-            this.imgDisponibilidadCart1.Location = new System.Drawing.Point(10, 170);
-            this.imgDisponibilidadCart1.Name = "imgDisponibilidadCart1";
-            this.imgDisponibilidadCart1.Size = new System.Drawing.Size(160, 20);
-            this.imgDisponibilidadCart1.TabIndex = 8;
-            this.imgDisponibilidadCart1.TabStop = false;
-            // 
-            // imgProductoCart1
-            // 
-            this.imgProductoCart1.Location = new System.Drawing.Point(10, 10);
-            this.imgProductoCart1.Name = "imgProductoCart1";
-            this.imgProductoCart1.Size = new System.Drawing.Size(160, 160);
-            this.imgProductoCart1.TabIndex = 0;
-            this.imgProductoCart1.TabStop = false;
-            // 
-            // imgCasiAgotados2
-            // 
-            this.imgCasiAgotados2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.imgCasiAgotados2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.imgCasiAgotados2.Location = new System.Drawing.Point(616, 10);
-            this.imgCasiAgotados2.Name = "imgCasiAgotados2";
-            this.imgCasiAgotados2.Size = new System.Drawing.Size(30, 30);
-            this.imgCasiAgotados2.TabIndex = 2;
-            this.imgCasiAgotados2.TabStop = false;
             // 
             // imgDisponible2
             // 
@@ -1023,44 +1026,44 @@
             this.pnlSubSectionProduct2.ResumeLayout(false);
             this.pnlSubSectionProduct2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudCantidad2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgDisponibilidad2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgProducto2)).EndInit();
             this.pnlSubSectionProduct1.ResumeLayout(false);
             this.pnlSubSectionProduct1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudCantidad1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgDisponibilidad1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgProducto1)).EndInit();
             this.SectionDate1.ResumeLayout(false);
             this.SectionDate1.PerformLayout();
             this.SectionInfo2.ResumeLayout(false);
             this.SectionInfo2.PerformLayout();
             this.SectionInfo1.ResumeLayout(false);
             this.SectionInfo1.PerformLayout();
-            this.SectionCart.ResumeLayout(false);
-            this.tlpProductContainer2.ResumeLayout(false);
-            this.SectionProductsCart1.ResumeLayout(false);
-            this.pnlSubSectionProductCart2.ResumeLayout(false);
-            this.pnlSubSectionProductCart2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudCantidadCart2)).EndInit();
-            this.pnlSubSectionProductCart1.ResumeLayout(false);
-            this.pnlSubSectionProductCart1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudCantidadCart1)).EndInit();
-            this.SectionDate2.ResumeLayout(false);
-            this.SectionDate2.PerformLayout();
-            this.SectionInfo4.ResumeLayout(false);
-            this.SectionInfo4.PerformLayout();
-            this.SectionInfo3.ResumeLayout(false);
-            this.SectionInfo3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imgDisponibilidad2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgProducto2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgDisponibilidad1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgProducto1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgAgotados1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgCasiAgotados1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgDisponible1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.SectionCart.ResumeLayout(false);
+            this.tlpProductContainer2.ResumeLayout(false);
+            this.SectionProductsCart1.ResumeLayout(false);
+            this.pnlSubSectionProductCart2.ResumeLayout(false);
+            this.pnlSubSectionProductCart2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudCantidadCart2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgDisponibilidadCart2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgProductoCart2)).EndInit();
+            this.pnlSubSectionProductCart1.ResumeLayout(false);
+            this.pnlSubSectionProductCart1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudCantidadCart1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgDisponibilidadCart1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgProductoCart1)).EndInit();
+            this.SectionDate2.ResumeLayout(false);
+            this.SectionDate2.PerformLayout();
+            this.SectionInfo4.ResumeLayout(false);
+            this.SectionInfo4.PerformLayout();
+            this.SectionInfo3.ResumeLayout(false);
+            this.SectionInfo3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgCasiAgotados2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgDisponible2)).EndInit();
             this.ResumeLayout(false);

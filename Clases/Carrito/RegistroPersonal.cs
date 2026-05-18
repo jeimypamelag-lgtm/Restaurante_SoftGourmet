@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -19,39 +20,60 @@ namespace Restaurante_SoftGourmet.Clases.Carrito
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            // Captura los datos ingresados por el usuario
-            // Asegúrate de que txtUsuario y txtContrasena coincidan con los Name de tus TextBox
-            string usuario = txtUsuario.Text.Trim();
-            string contraseña = txtContraseña.Text;
+            string connectionString = "Data Source=.;Initial Catalog=SoftGourmetDB;Integrated Security=True";
 
-            // Validación básica de campos vacíos
-            if (string.IsNullOrEmpty(usuario) || string.IsNullOrEmpty(contraseña))
+            string usuarioInput = txtUsuario.Text.Trim();
+            string contrasenaInput = txtContraseña.Text;
+
+            // Validación de campos vacíos
+            if (string.IsNullOrEmpty(usuarioInput) || string.IsNullOrEmpty(contrasenaInput))
             {
-                MessageBox.Show("Por favor, complete todos los campos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Por favor, ingrese sus credenciales.", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-            // Validación de credenciales para el empleado
-            if (usuario == "empleado" && contraseña == "1234")
+            // Consulta SQL parametrizada por seguridad
+            string query = "SELECT COUNT(1) FROM Usuarios WHERE NombreUsuario = @user AND Contrasena = @pass";
+
+            using (SqlConnection conexion = new SqlConnection(connectionString))
             {
-                MessageBox.Show("¡Bienvenido al sistema!", "Acceso Concedido", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                try
+                {
+                    conexion.Open();
+                    SqlCommand comando = new SqlCommand(query, conexion);
 
-                // Oculta el formulario de RegistroPersonal
-                this.Hide();
+                    // Añadimos los parámetros para evitar Inyección SQL
+                    comando.Parameters.AddWithValue("@user", usuarioInput);
+                    comando.Parameters.AddWithValue("@pass", contrasenaInput);
 
-                // Abre el nuevo menú de empleados
-                MenuEmpleados frm = new MenuEmpleados();
-                frm.Show();
-                this.Hide();
+                    int existe = Convert.ToInt32(comando.ExecuteScalar());
 
-                // Al cerrar el menú de empleados, se cierra por completo la aplicación
-                this.Close();
-            }
-            else
-            {
-                MessageBox.Show("Usuario o contraseña incorrectos.", "Error de Autenticación", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                txtContraseña.Clear();
-                txtContraseña.Focus();
+                    if (existe > 0)
+                    {
+                        MessageBox.Show("¡Bienvenido al sistema SoftGourmet!", "Acceso Concedido", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                        this.Hide(); // Ocultamos el login
+
+                        // Abrimos el menú que diseñamos
+                        MenuEmpleados menu = new MenuEmpleados();
+                        menu.ShowDialog();
+
+                        this.Close(); // Cerramos definitivamente al salir del menú
+                    }
+                    else
+                    {
+                        MessageBox.Show("Usuario o contraseña incorrectos. Intente de nuevo.", "Error de Acceso", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        txtContraseña.Clear();
+                        txtContraseña.Focus();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    // Mensaje claro por si la otra persona no tiene la base de datos instalada
+                    MessageBox.Show("No se pudo establecer conexión con la base de datos local.\n\n" +
+                                    "Asegúrese de haber ejecutado el script SQL de 'SoftGourmetDB' en su SQL Server.\n\n" +
+                                    "Detalle técnico: " + ex.Message, "Error de Conexión", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
 
