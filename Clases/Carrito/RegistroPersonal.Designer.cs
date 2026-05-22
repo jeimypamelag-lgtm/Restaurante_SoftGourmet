@@ -36,6 +36,7 @@
             this.txtContraseña = new System.Windows.Forms.TextBox();
             this.btnIngresar = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
+            this.btnRegresar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -92,12 +93,14 @@
             // 
             // btnIngresar
             // 
+            this.btnIngresar.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.btnIngresar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIngresar.Location = new System.Drawing.Point(451, 350);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(208, 55);
             this.btnIngresar.TabIndex = 5;
             this.btnIngresar.Text = "Ingresar    >";
-            this.btnIngresar.UseVisualStyleBackColor = true;
+            this.btnIngresar.UseVisualStyleBackColor = false;
             this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
             // 
             // label5
@@ -112,6 +115,20 @@
             this.label5.TabIndex = 7;
             this.label5.Text = "Ingresa tus credenciales para acceder al sistema";
             // 
+            // btnRegresar
+            // 
+            this.btnRegresar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRegresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegresar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegresar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(162)))), ((int)(((byte)(39)))));
+            this.btnRegresar.Location = new System.Drawing.Point(34, 402);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(42, 30);
+            this.btnRegresar.TabIndex = 14;
+            this.btnRegresar.Text = "◀";
+            this.btnRegresar.UseVisualStyleBackColor = true;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
+            // 
             // RegistroPersonal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -120,6 +137,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(823, 466);
+            this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btnIngresar);
             this.Controls.Add(this.txtContraseña);
@@ -128,9 +146,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "RegistroPersonal";
-            this.Text = "RegistroPersonal";
+            this.Text = "Ingreso de personal";
             this.Load += new System.EventHandler(this.RegistroPersonal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -146,5 +165,6 @@
         private System.Windows.Forms.TextBox txtContraseña;
         private System.Windows.Forms.Button btnIngresar;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btnRegresar;
     }
 }

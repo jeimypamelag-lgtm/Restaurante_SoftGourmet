@@ -271,6 +271,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MenuEmpleados";
             this.Text = "MenuEmpleados";
             this.panel1.ResumeLayout(false);

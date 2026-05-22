@@ -835,5 +835,10 @@ namespace Restaurante_SoftGourmet
             frmMenu.Show();
             this.Close();
         }
+
+        private void Linea_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

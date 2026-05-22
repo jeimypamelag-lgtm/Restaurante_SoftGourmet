@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ModuloAlmacen));
             this.tlpAllContainer = new System.Windows.Forms.TableLayoutPanel();
             this.AllContainer = new System.Windows.Forms.Panel();
             this.dgvBD = new System.Windows.Forms.DataGridView();
@@ -214,8 +215,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tlpAllContainer);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ModuloAlmacen";
-            this.Text = "ModuloAlmacen";
+            this.Text = "Inventario";
             this.tlpAllContainer.ResumeLayout(false);
             this.AllContainer.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvBD)).EndInit();

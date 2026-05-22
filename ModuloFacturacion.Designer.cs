@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ModuloFacturacion));
             this.tlpAllContainer = new System.Windows.Forms.TableLayoutPanel();
             this.pnlContainer = new System.Windows.Forms.Panel();
             this.pnlOrdenes = new System.Windows.Forms.Panel();
@@ -162,7 +163,7 @@
             this.gbDetallesPedido.Controls.Add(this.txtBusqueda2);
             this.gbDetallesPedido.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.gbDetallesPedido.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(162)))), ((int)(((byte)(39)))));
-            this.gbDetallesPedido.Location = new System.Drawing.Point(510, 34);
+            this.gbDetallesPedido.Location = new System.Drawing.Point(510, 6);
             this.gbDetallesPedido.Name = "gbDetallesPedido";
             this.gbDetallesPedido.Size = new System.Drawing.Size(450, 445);
             this.gbDetallesPedido.TabIndex = 8;
@@ -180,6 +181,7 @@
             this.Linea.Name = "Linea";
             this.Linea.Size = new System.Drawing.Size(91, 80);
             this.Linea.TabIndex = 23;
+            this.Linea.Paint += new System.Windows.Forms.PaintEventHandler(this.Linea_Paint);
             // 
             // lblSubTotalDGV
             // 
@@ -300,7 +302,7 @@
             this.gbResumenPago.Controls.Add(this.groupBox1);
             this.gbResumenPago.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.gbResumenPago.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(162)))), ((int)(((byte)(39)))));
-            this.gbResumenPago.Location = new System.Drawing.Point(981, 34);
+            this.gbResumenPago.Location = new System.Drawing.Point(978, 12);
             this.gbResumenPago.Name = "gbResumenPago";
             this.gbResumenPago.Size = new System.Drawing.Size(360, 445);
             this.gbResumenPago.TabIndex = 8;
@@ -608,7 +610,7 @@
             this.gbPedidoSeleccionado.Controls.Add(this.label2);
             this.gbPedidoSeleccionado.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.gbPedidoSeleccionado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(162)))), ((int)(((byte)(39)))));
-            this.gbPedidoSeleccionado.Location = new System.Drawing.Point(3, 312);
+            this.gbPedidoSeleccionado.Location = new System.Drawing.Point(13, 340);
             this.gbPedidoSeleccionado.Name = "gbPedidoSeleccionado";
             this.gbPedidoSeleccionado.Size = new System.Drawing.Size(360, 140);
             this.gbPedidoSeleccionado.TabIndex = 7;
@@ -863,8 +865,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1370, 585);
             this.Controls.Add(this.tlpAllContainer);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ModuloFacturacion";
-            this.Text = "ModuloFacturacion";
+            this.Text = "Facturacion";
             this.tlpAllContainer.ResumeLayout(false);
             this.pnlContainer.ResumeLayout(false);
             this.pnlOrdenes.ResumeLayout(false);

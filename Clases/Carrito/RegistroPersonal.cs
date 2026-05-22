@@ -81,5 +81,13 @@ namespace Restaurante_SoftGourmet.Clases.Carrito
         {
 
         }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            //FrmMenu regresar
+            MenuPrincipal frmMenu = new MenuPrincipal();
+            frmMenu.Show();
+            this.Close();
+        }
     }
 }

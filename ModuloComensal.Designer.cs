@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ModuloComensal));
             this.tlpAllContainer = new System.Windows.Forms.TableLayoutPanel();
             this.TABControlador = new System.Windows.Forms.TabControl();
             this.SectionOrder = new System.Windows.Forms.TabPage();
@@ -1015,8 +1016,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tlpAllContainer);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ModuloComensal";
-            this.Text = "ModuloComensal";
+            this.Text = "Menu";
             this.Load += new System.EventHandler(this.ModuloComensal_Load);
             this.tlpAllContainer.ResumeLayout(false);
             this.TABControlador.ResumeLayout(false);

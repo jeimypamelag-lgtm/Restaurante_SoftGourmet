@@ -200,7 +200,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tlpAllContainer);
             this.Name = "ModuloProduccion";
-            this.Text = "ModuloProduccion";
+            this.Text = "Pedidos";
             this.tlpAllContainer.ResumeLayout(false);
             this.pnlContainer.ResumeLayout(false);
             this.SectionInfo3.ResumeLayout(false);
